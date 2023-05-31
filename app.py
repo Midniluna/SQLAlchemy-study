@@ -19,4 +19,4 @@ def home_page():
     print(db)
     return render_template('index.html')
 
-db.create_all()
+# db.create_all()
